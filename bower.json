@@ -1,0 +1,28 @@
+{
+  "name": "yohoho.flexy",
+  "version": "1.0.0",
+  "homepage": "https://github.com/crewstyle/flexy",
+  "authors": [
+    "Achraf Chouk <achrafchouk@gmail.com>"
+  ],
+  "description": "An iframe responsive jQuery plugin",
+  "main": [
+    "dist/flexy.min.js"
+  ],
+  "keywords": [
+    "iframe",
+    "responsive",
+    "jquery"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
