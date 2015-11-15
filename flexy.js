@@ -1,5 +1,5 @@
 /*! *//*!
- * flexy.js v1.0.0 - "Sogeking no shima deeeeeee - One Piece"
+ * flexy.js v1.1.0 - "Sogeking no shima deeeeeee - One Piece"
  * ~~~~~~~~~~~~~~~~~~
  *
  * Example of use HTML:
@@ -47,18 +47,8 @@
 
     Flexy.prototype.addCss = function (){
         var _flexy = this,
-            _tag = _flexy.$el.prop('tagName');
-
-        //get source
-        if ('OBJECT' === _tag) {
-            _src = _flexy.$el.attr('data');
-        }
-        else if ('EMBED' === _tag || 'IFRAME' === _tag || 'VIDEO' === _tag) {
-            _src = _flexy.$el.attr('src');
-        }
-        else {
-            return false;
-        }
+            _tag = _flexy.$el.prop('tagName'),
+            _src = null;
 
         //add CSS to element
         _flexy.$el.css({
@@ -83,6 +73,24 @@
         //wide screens
         if (_flexy.options.widescreen) {
             _flexy.$wrap.css('padding-bottom', '56.34%');
+        }
+
+        //get source
+        if ('OBJECT' === _tag) {
+            _src = _flexy.$el.attr('data');
+        }
+        else if ('EMBED' === _tag || 'IFRAME' === _tag) {
+            _src = _flexy.$el.attr('src');
+        }
+        else if ('VIDEO' === _tag) {
+            _src = _flexy.$el.attr('src');
+
+            if (typeof _src === typeof undefined || _src === false) {
+                _src = _flexy.$el.find('source:first-child').attr('src');
+            }
+        }
+        else {
+            return;
         }
 
         //vimeo

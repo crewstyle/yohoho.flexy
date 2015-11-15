@@ -22,7 +22,29 @@ npm install yohoho.flexy
 
 ````html
 <!-- In your <body> HTML tag -->
+
+<!-- iframe -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x3kfyZJhC3U?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<!-- embed -->
+<embed width="560" height="315" src="https://www.youtube.com/embed/x3kfyZJhC3U?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></embed>
+
+<!-- video -->
+<video width="560" height="315" src="movie.ogg" autoplay poster="poster.jpg">
+    Sorry, your browser doesn't support embedded videos, but you can <a href="movie.ogg">download it</a> and watch it with your favorite video player!
+</video>
+
+<!-- video -->
+<video width="560" height="315" controls poster="poster.jpg">
+    <source src="movie.mp4" type="video/mp4" />
+    <source src="movie.ogv" type="video/ogg" />
+    <source src="movie.webm" type="video/webm" />
+    Sorry, your browser doesn't support embedded videos
+</video>
+
+<!-- object -->
+<object width="560" height="315" data="object.swf" type="application/x-shockwave-flash"></object>
+
 ````
 
 ````javascript
