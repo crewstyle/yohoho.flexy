@@ -2,7 +2,7 @@
 
 _an iframe responsive very light jQuery plugin_  
 [![npm version](https://badge.fury.io/js/yohoho.flexy.svg)](https://badge.fury.io/js/yohoho.flexy)
-[![GitHub version](https://badge.fury.io/gh/yohoho.flexy.svg)](https://badge.fury.io/gh/yohoho.flexy)  
+[![GitHub version](https://badge.fury.io/gh/crewstyle%2Fflexy.svg)](https://badge.fury.io/gh/crewstyle%2Fflexy)  
 
 
 ## Package manager
@@ -51,12 +51,10 @@ jQuery 2.1.4
 
 ## Authors and Copyright
 
-**Achraf Chouk**
+Made with ♥ by **[Achraf Chouk](http://github.com/crewstyle "Achraf Chouk")**
 
 + http://fr.linkedin.com/in/achrafchouk/
 + http://twitter.com/crewstyle
 + http://github.com/crewstyle
 
 Please, read [LICENSE](https://github.com/crewstyle/flexy/blob/master/LICENSE "LICENSE") for more details.
-
-Made with ♥ by [Achraf Chouk](http://github.com/crewstyle "Achraf Chouk").
