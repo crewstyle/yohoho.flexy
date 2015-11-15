@@ -1,6 +1,6 @@
 {
   "name": "yohoho.flexy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://github.com/crewstyle/flexy",
   "authors": [
     "Achraf Chouk <achrafchouk@gmail.com>"
@@ -10,9 +10,11 @@
     "dist/flexy.min.js"
   ],
   "keywords": [
+    "flexy",
     "iframe",
     "responsive",
-    "jquery"
+    "jquery-plugin",
+    "ecosystem:jquery"
   ],
   "ignore": [
     "**/.*",

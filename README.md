@@ -44,7 +44,6 @@ npm install yohoho.flexy
 
 <!-- object -->
 <object width="560" height="315" data="object.swf" type="application/x-shockwave-flash"></object>
-
 ````
 
 ````javascript
