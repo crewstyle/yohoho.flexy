@@ -1,6 +1,8 @@
 # Flexy [![Build Status](https://travis-ci.org/crewstyle/flexy.svg)](https://travis-ci.org/crewstyle/flexy)
 
-_an iframe responsive jQuery plugin_
+_an iframe responsive jQuery plugin_  
+[![npm version](https://badge.fury.io/js/%40crewstyle%2Fflexy.svg)](https://badge.fury.io/js/%40crewstyle%2Fflexy)
+[![GitHub version](https://badge.fury.io/gh/crewstyle%2Fflexy.svg)](https://badge.fury.io/gh/crewstyle%2Fflexy)  
 
 
 ## Summary
