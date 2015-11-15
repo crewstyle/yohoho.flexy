@@ -47,7 +47,18 @@
 
     Flexy.prototype.addCss = function (){
         var _flexy = this,
+            _tag = _flexy.$el.prop('tagName');
+
+        //get source
+        if ('OBJECT' === _tag) {
+            _src = _flexy.$el.attr('data');
+        }
+        else if ('EMBED' === _tag || 'IFRAME' === _tag || 'VIDEO' === _tag) {
             _src = _flexy.$el.attr('src');
+        }
+        else {
+            return false;
+        }
 
         //add CSS to element
         _flexy.$el.css({
