@@ -1,5 +1,5 @@
 {
-  "name": "flexy",
+  "name": "@crewstyle/flexy",
   "version": "1.0.0",
   "description": "An iframe responsive jQuery plugin",
   "main": "dist/flexy.min.js",
@@ -11,9 +11,11 @@
     "url": "https://github.com/crewstyle/flexy.git"
   },
   "keywords": [
+    "flexy",
     "iframe",
     "responsive",
-    "jquery"
+    "jquery-plugin",
+    "ecosystem:jquery"
   ],
   "author": "Achraf Chouk <achrafchouk@gmail.com>",
   "license": "MIT",
