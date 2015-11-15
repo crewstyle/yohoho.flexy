@@ -1,5 +1,5 @@
 {
-  "name": "@crewstyle/flexy",
+  "name": "yohoho.flexy",
   "version": "1.0.0",
   "description": "An iframe responsive jQuery plugin",
   "main": "dist/flexy.min.js",
