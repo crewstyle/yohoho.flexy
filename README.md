@@ -5,7 +5,7 @@ _an iframe responsive very light jQuery plugin_
 [![GitHub version](https://badge.fury.io/gh/crewstyle%2Fflexy.svg)](https://badge.fury.io/gh/crewstyle%2Fflexy)  
 
 
-## [Demo page](https://cdn.rawgit.com/crewstyle/flexy/master/demo/index.html)
+## [Demo page](https://cdn.rawgit.com/crewstyle/flexy/6bf0497b71db2cf485d563e0064e760a21f68ddd/demo/index.html)
 
 
 ## Package manager
