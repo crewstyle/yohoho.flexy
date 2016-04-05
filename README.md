@@ -2,7 +2,7 @@
 
 _an iframe responsive very light jQuery plugin_  
 [![npm version](https://badge.fury.io/js/yohoho.flexy.svg)](https://badge.fury.io/js/yohoho.flexy)
-[![GitHub version](https://badge.fury.io/gh/crewstyle/yohoho.flexy.svg)](https://badge.fury.io/gh/crewstyle/yohoho.flexy)  
+[![GitHub version](https://badge.fury.io/gh/crewstyle%2Fyohoho.flexy.svg)](https://badge.fury.io/gh/crewstyle%2Fyohoho.flexy)  
 
 
 ## [Demo page](https://cdn.rawgit.com/crewstyle/yohoho.flexy/3b09c6925b878f18b477d3e510db6d9324a27255/demo/index.html)
