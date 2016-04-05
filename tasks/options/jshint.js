@@ -1,7 +1,7 @@
 module.exports = {
   src: {
     src: [
-      './flexy.js'
+      './src/flexy.js'
     ]
   },
 
