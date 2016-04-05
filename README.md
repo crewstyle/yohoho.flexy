@@ -5,7 +5,7 @@ _an iframe responsive very light jQuery plugin_
 [![GitHub version](https://badge.fury.io/gh/crewstyle%2Fflexy.svg)](https://badge.fury.io/gh/crewstyle%2Fflexy)  
 
 
-## [Demo page](https://cdn.rawgit.com/crewstyle/flexy/6bf0497b71db2cf485d563e0064e760a21f68ddd/demo/index.html)
+## [Demo page](https://cdn.rawgit.com/crewstyle/yohoho.flexy/6bf0497b71db2cf485d563e0064e760a21f68ddd/demo/index.html)
 
 
 ## Package manager
@@ -50,11 +50,16 @@ npm install yohoho.flexy
 ````
 
 ````javascript
-//in your main JS file
+//in your main JS file with default options
+$('iframe').flexy();
+````
+
+````javascript
+//in your main JS file with custom options
 $('iframe').flexy({
     addcss: true,
     classname: 'flexy-wrapper',
-    widescreen: true
+    widescreen: false
 });
 ````
 
@@ -65,12 +70,12 @@ Option | Type | Default | Description
 ------ | ---- | ------- | -----------
 addcss | boolean | true | Enables default flexy inline CSS applied to wrapper and video element
 classname | string | 'flexy-wrapper' | CSS class applied to wrapper
-widescreen | boolean | true | Enables wide screen format (16/9). Made especially for Vimeo embed
+widescreen | boolean | false | Enables wide screen format (16/9). Made especially for Vimeo embed
 
 
 ## Dependencies
 
-jQuery 2.1.4
+jQuery **latest version**
 
 
 ## Authors and Copyright
@@ -81,4 +86,4 @@ Made with ♥ by **[Achraf Chouk](http://github.com/crewstyle "Achraf Chouk")**
 + http://twitter.com/crewstyle
 + http://github.com/crewstyle
 
-Please, read [LICENSE](https://github.com/crewstyle/flexy/blob/master/LICENSE "LICENSE") for more details.
+Please, read [LICENSE](https://github.com/crewstyle/yohoho.flexy/blob/master/LICENSE "LICENSE") for more details.

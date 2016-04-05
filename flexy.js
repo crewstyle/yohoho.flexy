@@ -1,5 +1,5 @@
 /*! *//*!
- * flexy.js v1.1.0 - "Sogeking no shima deeeeeee - One Piece"
+ * flexy.js v1.2.0 - "Sogeking no shima deeeeeee - One Piece"
  * ~~~~~~~~~~~~~~~~~~
  *
  * Example of use HTML:
@@ -9,7 +9,7 @@
  * $('iframe').flexy({
  *     addcss: true,
  *     classname: 'flexy-wrapper',
- *     widescreen: true,
+ *     widescreen: false,
  * });
  *
  * ~~~~~~~~~~~~~~~~~~
@@ -70,11 +70,6 @@
             position: 'relative',
         });
 
-        //wide screens
-        if (_flexy.options.widescreen) {
-            _flexy.$wrap.css('padding-bottom', '56.34%');
-        }
-
         //get source
         if ('OBJECT' === _tag) {
             _src = _flexy.$el.attr('data');
@@ -95,7 +90,13 @@
 
         //vimeo
         if (_src.match(/player\.vimeo\.com/)) {
+            _flexy.options.widescreen = true;
             _flexy.$wrap.css('padding-top', 0);
+        }
+
+        //wide screens
+        if (_flexy.options.widescreen) {
+            _flexy.$wrap.css('padding-bottom', '56.34%');
         }
     };
 
@@ -113,7 +114,7 @@
             var settings = {
                 addcss: true,
                 classname: 'flexy-wrapper',
-                widescreen: true
+                widescreen: false
             };
 
             return this.each(function (){
