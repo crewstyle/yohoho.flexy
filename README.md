@@ -1,4 +1,4 @@
-# Flexy [![Build Status](https://travis-ci.org/crewstyle/flexy.svg)](https://travis-ci.org/crewstyle/flexy)
+# Flexy [![Build Status](https://travis-ci.org/crewstyle/yohoho.flexy.svg)](https://travis-ci.org/crewstyle/flexy)
 
 _an iframe responsive very light jQuery plugin_  
 [![npm version](https://badge.fury.io/js/yohoho.flexy.svg)](https://badge.fury.io/js/yohoho.flexy)
