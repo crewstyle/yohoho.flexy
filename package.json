@@ -1,6 +1,6 @@
 {
   "name": "yohoho.flexy",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "An iframe responsive jQuery plugin",
   "main": "dist/flexy.min.js",
   "scripts": {

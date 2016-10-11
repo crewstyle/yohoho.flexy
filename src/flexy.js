@@ -24,6 +24,11 @@
         _flexy.$el = $el;
         _flexy.options = $.extend({}, options);
 
+        //check element
+        if (!$el.length) {
+            return;
+        }
+
         //initialize
         _flexy.initialize();
     };
