@@ -1,5 +1,5 @@
 /*! *//*!
- * flexy.js v1.2.0 - "Sogeking no shima deeeeeee - One Piece"
+ * flexy.js v1.2.2 - "Sogeking no shima deeeeeee - One Piece"
  * ~~~~~~~~~~~~~~~~~~
  *
  * Example of use HTML:
@@ -23,11 +23,6 @@
         var _flexy = this;
         _flexy.$el = $el;
         _flexy.options = $.extend({}, options);
-
-        //check element
-        if (!$el.length) {
-            return;
-        }
 
         //initialize
         _flexy.initialize();
