@@ -36,7 +36,7 @@
         var _flexy = this;
 
         //create wrapper
-        _flexy.$el.wrap('<div class="' + _flexy.options.classname + '" />');
+        _flexy.$el.wrap('<figure class="' + _flexy.options.classname + '" />');
         _flexy.$wrap = _flexy.$el.closest('.' + _flexy.options.classname);
 
         //add CSS to wrapper
@@ -88,8 +88,10 @@
             return;
         }
 
+        var reg = /player\.vimeo\.com/g;
+
         //vimeo
-        if (_src.match(/player\.vimeo\.com/)) {
+        if (reg.test(_src)) {
             _flexy.options.widescreen = true;
             _flexy.$wrap.css('padding-top', 0);
         }
